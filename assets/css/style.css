@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+#headerRow {
+    background: #2b2a28;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#header {
+    color: white;
+}
+
+#searchButtonBox {
+    display: flex;
+    align-items: flex-end;
+}
+
+.resultBox {
+    height: 200px;
+    
+}
