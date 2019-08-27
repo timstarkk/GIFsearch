@@ -24,3 +24,7 @@ body {
     height: 200px;
     
 }
+
+.searchButton {
+    margin-right: 10px;
+}

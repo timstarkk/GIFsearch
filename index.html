@@ -43,22 +43,25 @@
     </div>
     <div class="row">
         <div class="container">
-            <div class="row searchRow" id="">
-                <div class="col-10">
-                    <label for="exampleInputEmail1">Add a search term:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form>
+                <div class="row searchRow" id="">
+                    <!-- need to make this a form with the blockdefault -->
+                    <div class="col-10">
+                        <label for="searchTerm">Add a search term:</label>
+                        <input type="text" class="form-control" id="searchTerm">
+                    </div>
+                    <div class="col-2" id="searchButtonBox">
+                        <button type="submit" class="btn btn-primary" id="search">Search</button>
+                    </div>
+                    <!-- end form -->
                 </div>
-                <div class="col-2" id="searchButtonBox">
-                    <button type="button" class="btn btn-primary">Search</button>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
     <div class="row">
         <div class="container">
             <div class="row buttonsRow">
-                <div class="col-12">
-                    Search buttons will go here
+                <div class="col-12" id="buttons">
                 </div>
             </div>
         </div>
@@ -66,28 +69,28 @@
     <div class="row">
         <div class="container">
             <div class="row mainRow">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result1">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result2">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result3">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result4">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result5">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result6">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result7">
                     hello
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 resultBox" id="result8">
                     hello
                 </div>
             </div>
